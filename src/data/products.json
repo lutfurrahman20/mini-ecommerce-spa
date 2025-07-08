@@ -4,13 +4,41 @@
     "name": "Premium T-Shirt",
     "description": "Soft and comfy cotton t-shirt.",
     "price": 20,
-    "image": "/assets/tshirt.jpg"
+    "image": "https://i.postimg.cc/W3JdD0Nx/tshirt.avif"
   },
   {
     "id": 2,
     "name": "Hoodie",
     "description": "Warm hoodie for winter.",
     "price": 40,
-    "image": "/assets/hoodie.jpg"
+    "image": "https://i.postimg.cc/Nfs0t8wp/hoddie.avif"
+  },
+  {
+    "id": 3,
+    "name": "Classic Denim Jacket",
+    "description": "Stylish denim jacket for all seasons.",
+    "price": 60,
+    "image": "https://i.postimg.cc/ZRhWdCWR/danim.webp"
+  },
+  {
+    "id": 4,
+    "name": "Casual Sneakers",
+    "description": "Comfortable sneakers for daily wear.",
+    "price": 55,
+    "image": "https://i.postimg.cc/J0z4NJM1/casual.webp"
+  },
+  {
+    "id": 5,
+    "name": "Leather Backpack",
+    "description": "Premium leather backpack with multiple pockets.",
+    "price": 80,
+    "image": "https://i.postimg.cc/cJ7sPTJx/lather-back.avif"
+  },
+  {
+    "id": 6,
+    "name": "Smartwatch",
+    "description": "Feature-packed smartwatch with health tracking.",
+    "price": 120,
+    "image": "https://i.postimg.cc/rwPWKVG0/smartwatch.avif"
   }
 ]

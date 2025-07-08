@@ -16,7 +16,7 @@ export default function CartSidebar() {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-50 bg-blue-600 text-white px-4 py-2 rounded shadow"
+        className="fixed top-5 right-4 z-50 bg-blue-600 text-white px-4 py-2 rounded shadow"
       >
         {isOpen ? "Close Cart" : `Cart (${cart.length})`}
       </button>
@@ -28,7 +28,7 @@ export default function CartSidebar() {
         }`}
       >
         <div className="p-4 flex flex-col h-full">
-          <h2 className="text-xl font-bold mb-4">Your Cart</h2>
+          <h2 className="text-xl font-bold mb-5">Your Cart</h2>
 
           <div className="flex-1 overflow-y-auto space-y-4">
             {cart.length === 0 ? (

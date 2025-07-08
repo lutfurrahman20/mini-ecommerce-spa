@@ -25,10 +25,10 @@ export default function ProductDetailPage() {
       <img
         src={product.image}
         alt={product.name}
-        className="w-full h-auto object-cover rounded shadow"
+        className="w-full h-100 object-cover rounded shadow"
       />
 
-      <div>
+      <div className="">
         <h1 className="text-3xl font-bold mb-4">{product.name}</h1>
         <p className="text-gray-600 mb-4">{product.description}</p>
         <p className="text-xl font-semibold mb-4">${product.price}</p>
